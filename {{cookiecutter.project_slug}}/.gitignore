@@ -99,6 +99,4 @@ bin/
 /data/interim
 /data/processed
 /data/raw
-
-# exclude external models from source control
-/src/external/
+/data/visualization

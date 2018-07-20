@@ -25,11 +25,11 @@ Project Structure
 ├── bin                <- Your compiled model code can be stored here (not tracked by git)
 ├── config             <- Configuration files, e.g., for doxygen or for your model if needed
 ├── data
-│   ├── 0_external     <- Data external to the project.
-│   ├── 1_interim      <- Intermediate data that has been altered.
-│   ├── 2_input        <- Model input.
-│   ├── 3_raw          <- Raw data dump from the model.
-│   └── 4_processed    <- Final data, ready for visualisation.
+│   ├── external       <- Data external to the project.
+│   ├── interim        <- Intermediate data that has been altered.
+│   ├── processed      <- The processed data sets, ready for modeling.
+│   ├── raw            <- Raw data dump from the model.
+│   └── visualization  <- Post-processed data, ready for visualisation.
 ├── docs               <- Documentation, e.g., doxygen or scientific papers (not tracked by git)
 ├── notebooks          <- Jupyter notebooks
 ├── reports            <- For a manuscript source, e.g., LaTeX, Markdown, etc., or any project reports
